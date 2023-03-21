@@ -11,7 +11,7 @@ import pandas as pd
 # from openai import OpenAI
 #from gpt import LLMPredictor
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ''
 
 #後續補上引用
 import csv
