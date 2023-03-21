@@ -13,8 +13,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import unicodedata
 
-os.environ["OPENAI_API_KEY"] = ''
-openai.api_key = ""
+os.environ["OPENAI_API_KEY"] = 'Your API Key'
+openai.api_key = "Your API Key"
 
 messages = [
     {"role": "system", "content": "You are a helpful and kind AI Assistant."},
